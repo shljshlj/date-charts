@@ -1,4 +1,5 @@
 // https://gist.github.com/miguelmota/7905510
+
 // Returns an array of dates between the two dates
 // export function getDates(startDate, endDate) {
 //   const dates = [];
@@ -16,6 +17,7 @@
 // }
 
 // https://stackoverflow.com/questions/57882475/generating-series-of-dates-between-two-given-date-with-simplified-method?noredirect=1&lq=1
+
 // startDate, endDate in format YYYY-MM-DD
 export function getDates(startDate, endDate) {
   const toISODate = (date) => date.toISOString().substr(0, 10);

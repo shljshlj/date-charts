@@ -1,3 +1,17 @@
 h1 {
-  color: pink;
+  color: purple;
+  text-align: center;
+}
+
+main {
+  width: 900px;
+  margin: 0 auto;
+}
+
+div {
+  margin-bottom: 40px;
+}
+
+button {
+  padding: 8px 16px;
 }
